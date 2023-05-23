@@ -1,5 +1,5 @@
 terraform {
-  cloud "remote" {
+  cloud {
     organization = "Lee-personal-project"
 
     workspaces {
