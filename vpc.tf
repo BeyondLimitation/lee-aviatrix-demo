@@ -2,7 +2,7 @@ module "aviatrix-demo" {
   source = "terraform-aws-modules/vpc/aws"
 
   name = "aviatrix-demo"
-  cidr = "192.168.0.0/24"
+  cidr = "192.168.0.0/20"
 
   azs = var.azs
   private_subnets = ["192.168.10.0/24", "192.168.20.0/24"]
